@@ -1,0 +1,124 @@
+html,body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    position: relative;
+    vertical-align: baseline;
+    background-color: deepskyblue;
+
+}
+
+
+.about, .skills, .education, .experience, .contact, .work{
+    padding: 40px;
+    min-height: 330px;
+    margin: auto;
+}
+.about, .skills, .education, .work, .contact, .experience{
+    margin-top: 30px;
+}
+
+header{
+    text-align: center;
+    min-height: 400px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 160px;
+    padding-top: 160px;
+}
+
+header img{
+    display: inline-block !important;
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 10%;
+    width: 85px;
+}
+
+hearder h2{
+    padding-top: 40px;
+}
+
+.about {
+    background: white;
+    width: 600px;
+    padding-bottom: 20px;
+
+}
+
+.skills{
+    background: grey;
+    color: #f5f5f5;
+    width: 600px;
+    height: 300px;
+}
+
+.skills .progress{
+    border-radius: 0px;
+    height: 4px;
+}
+
+.skills .progress .progress-bar-primary{
+    background: hotpink;
+}
+
+.skills strong{
+    display: inline-block;
+    font-weight: normal;
+    padding-bottom: 6px;
+}
+
+.education{
+    background: white;
+    width: 600px;
+}
+
+.education .education-content {
+    padding-bottom: 14px;
+    font-size: large;
+}
+
+.education h5{
+    display: inline-block;
+}
+
+.education span{
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.experience {
+    background: grey;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.experience ul {
+    padding: 10px;
+}
+.experience ul li{
+    padding-bottom: 6px;
+}
+
+.contact{
+    background: white;
+    width: 600px;
+}
+.work{
+    background: grey;
+    color: black;
+    width: 600px;
+}
+.experience-content {
+    padding-bottom: 14px;
+}
+.experience h5{
+    display: inline-block;
+}
+.experience span{
+    padding-right: 10px;
+    padding-left: 20px;
+}
